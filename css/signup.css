@@ -1,0 +1,73 @@
+body {
+    background: linear-gradient(to right, #699198 0%, #99e9ff 100%);
+}
+
+#header {
+    font-size: 70px;
+    font-family: 'Lobster', cursive;
+    margin-left: 20%;
+    border-top: 1px dotted white;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 1px dotted white;
+    color: black;
+    border-radius: 20px;
+    width: 800px;
+    text-align: center;
+}
+
+#text {
+    height: 25px;
+    border-radius: 5px;
+    padding: 4px;
+    border: solid thin rgba(59, 149, 93, 0.603);
+    width: 100%;
+}
+
+#text:hover {
+    box-shadow: 0px 2px 40px 2px rgb(47, 223, 223);
+}
+
+#button {
+    padding: 10px;
+    width: 100%;
+    font-size: 10px;
+    color: white;
+    background-color: lightblue;
+    border: none;
+    border-radius: 10px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    background: linear-gradient(to right, red, black);
+}
+
+#button:hover {
+    background: linear-gradient(to right, aqua, white 90%);
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    color: black;
+    font-size: 20px;
+    transition: 0.6s;
+    font-family: 'Lobster', cursive;
+}
+
+#box {
+    background-color: rgb(128, 128, 128);
+    margin: auto;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 5px white;
+}
+
+#rh {
+    font-size: 20px;
+    color: #0ed5eb;
+    width: 160px;
+    text-align: center;
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    margin-left: 75px;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}

@@ -1,0 +1,172 @@
+.leftbox {
+    width: 250px;
+    height: 700px;
+    background-color: white;
+    float: left;
+    position: fixed;
+    margin: 0;
+}
+
+.leftbox img {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.leftbox p {
+    font-size: 40px;
+    border: 1px solid white;
+    margin-top: 33px;
+    background: linear-gradient(to left, white, aqua, white);
+    text-align: center;
+    font-family: 'lobster', cursive;
+}
+
+.topbox {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    margin-left: 100px;
+    position: fixed;
+}
+
+.topbox p {
+    color: rgb(4, 4, 4);
+    margin-left: 28%;
+    font-size: 80px;
+    margin-top: 10px;
+}
+
+#p1 {
+    color: black;
+    margin-left: 26%;
+    font-size: 40px;
+    margin-top: -80px;
+    width: 650px;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(to left, white, aqua, white);
+}
+
+#li {
+    font-size: 30px;
+    list-style: none;
+    width: 200px;
+    background: linear-gradient(to left, aqua, white, aqua);
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: -16px;
+    font-family: 'Times New Roman';
+}
+
+#li:hover {
+    background: linear-gradient(to left, black, blue, black);
+    border: 2px solid white;
+    color: white;
+    padding: 6px;
+    transition: 0.6s;
+}
+
+#li:visited {
+    background: black;
+    color: white;
+}
+
+#li a {
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+}
+
+.mainbox {
+    width: 1091px;
+    height: auto;
+    margin-left: 250px;
+    margin-top: 200px;
+    background-color: whitesmoke;
+    float: left;
+    position: relative;
+}
+
+#mainboxp {
+    font-size: 40px;
+    border: 1px solid white;
+    margin-top: 0px;
+    background: linear-gradient(to left, white, aqua, white);
+    text-align: center;
+    font-family: 'lobster', cursive;
+}
+
+#General,
+#Stomach,
+#Lungs,
+#Covid-19,
+#Baby,
+#Mother,
+#Diabetes,
+#Skincare {
+    width: 1070px;
+    margin-left: 10px;
+    height: 650px;
+    background-color: white;
+    margin-top: -45px;
+}
+
+#general1,
+#Stomach1,
+#lungs1,
+#Covid-19a,
+#Baby1,
+#Mother1,
+#Diabetes1,
+#Skincare1 {
+    width: 1000px;
+    height: 130px;
+    margin-left: 35px;
+    margin-top: -20px;
+}
+
+#a1,
+#a2,
+#a3,
+#a4,
+#a5,
+#a6,
+#a7,
+#a8 {
+    margin-left: 30%;
+    font-family: 'lobster', cursive;
+    font-size: 50px;
+    width: 400px;
+    text-align: center;
+    background: linear-gradient(to right, aqua, green);
+    border-radius: 30px;
+}
+
+#Generalmed {
+    width: 130px;
+    height: 100px;
+    margin-left: 10px;
+    float: left;
+    margin-top: -20px;
+    background-color: aqua;
+    padding: 1px;
+}
+
+#cartbutton {
+    margin-left: 28px;
+    background-color: white;
+    border-radius: 4px;
+    font-family: 'lobster', cursive;
+}
+
+#Generalmedimg {
+    width: 130;
+    height: 83px;
+    background: pink;
+    overflow: hidden;
+}
+
+#Generalmed img {
+    width: 130px;
+    height: 100px;
+}
